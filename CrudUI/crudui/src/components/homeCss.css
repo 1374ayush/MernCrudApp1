@@ -1,0 +1,32 @@
+
+.mainBlock{
+    border:1px solid rgb(2, 82, 78);
+    background-color: rgba(255, 255, 255, 0.484);
+}
+
+.inputBlock{
+    width:80%;
+    padding:7px;
+    border-radius: 11px;
+    border:1px solid rgba(128, 128, 128, 0.616);
+}
+
+.button{
+    margin-left: 6px;
+    border-radius: 4px;
+    background-color: rgba(15, 75, 75, 0.904);
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.button:hover{
+    border-radius: 15px;
+    background-color: rgba(235, 68, 59, 0.708);
+    
+}
+
+.singleTask{
+    border-radius: 5px;
+    border:1px dashed white;
+}

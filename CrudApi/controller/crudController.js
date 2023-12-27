@@ -51,8 +51,8 @@ route.post('/addData',async(req,res)=>{
         //Product.create accepts the object in the req.body and this will be added to mongoDb
         const product = await Product.create(req.body)
         res.status(200).json(product)
-    }catch{
-        console.log("Error Occurred !! Couldn't add data...")
+    }catch(e){
+        console.log("Error Occurred !! Couldn't add data...", e)
         res.status(500).json({message:"error ocurred!!!"})
     }
 })
